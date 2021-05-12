@@ -12,8 +12,11 @@
 	<Property Name="varPersistentID:{4D93EDE3-B104-49DE-86BC-EE792DBE1020}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Time2UpperThreshold</Property>
 	<Property Name="varPersistentID:{6E6B75E1-6CB9-4D4D-BF98-8B0953A29AF1}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Overflow?</Property>
 	<Property Name="varPersistentID:{715E58DF-1A45-4611-A6A8-D04EED2D4B79}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Stop</Property>
+	<Property Name="varPersistentID:{8613B41A-5F43-4FF5-8C0B-B18A2358EAD3}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Final Step, n</Property>
 	<Property Name="varPersistentID:{9896F4D6-8303-4C52-BD1B-4E0125A0A54E}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Tot Rows</Property>
 	<Property Name="varPersistentID:{9E03FE82-000A-4435-AC74-B85D5CCC7478}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Tot Columns</Property>
+	<Property Name="varPersistentID:{ADBC4916-9546-47CF-85A9-329005502D0E}" Type="Ref">/My Computer/DyMIN Variables.lvlib/N. DyMIN Steps</Property>
+	<Property Name="varPersistentID:{B4D6B5AE-BF0C-4EE2-837E-1F626116BBC6}" Type="Ref">/My Computer/DyMIN Variables.lvlib/File Number</Property>
 	<Property Name="varPersistentID:{F0B3A20E-6627-4E6D-B8C9-224420CB6F1A}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Upper Threshold</Property>
 	<Property Name="varPersistentID:{FA91AB66-D44B-4BE2-86DF-BFE61BEA4B74}" Type="Ref">/My Computer/DyMIN Variables.lvlib/AOM Voltage (bits)</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -3024,8 +3027,6 @@ AddOutputFilter chunkFilter
 				<Item Name="CANCloseInterface.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANCloseInterface.vi"/>
 				<Item Name="CANStatusToError.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANStatusToError.vi"/>
 				<Item Name="CANStop.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANStop.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
@@ -3063,7 +3064,6 @@ AddOutputFilter chunkFilter
 			<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CalculateTimes.vi" Type="VI" URL="../CalculateTimes.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
