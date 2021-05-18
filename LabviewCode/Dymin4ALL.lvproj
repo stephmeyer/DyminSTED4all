@@ -9,7 +9,6 @@
 	<Property Name="varPersistentID:{32945241-DB3F-4DE2-BB13-6E071A710DDB}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Columns</Property>
 	<Property Name="varPersistentID:{3F7B9662-0378-4AB0-B5DD-52F7E2FEE476}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Dwell Time (#80MHz SCTLs)</Property>
 	<Property Name="varPersistentID:{4D27985D-4A9A-493F-9889-7095BF31ED7B}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Thresholds (counts)</Property>
-	<Property Name="varPersistentID:{4D93EDE3-B104-49DE-86BC-EE792DBE1020}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Time2UpperThreshold</Property>
 	<Property Name="varPersistentID:{4E504C6A-641E-4F38-AA27-6D1FB3167974}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Stop</Property>
 	<Property Name="varPersistentID:{5AF0CB58-6758-4238-A129-E7720C33C9CE}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Time till T_u</Property>
 	<Property Name="varPersistentID:{898B5194-2EAA-422C-B84B-93BA8104DB61}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Upper Threshold</Property>
@@ -46,6 +45,7 @@
 		<Item Name="DyMIN Variables.lvlib" Type="Library" URL="../DyMIN Variables.lvlib"/>
 		<Item Name="DyMIN_HMI_Main.vi" Type="VI" URL="../DyMIN_HMI_Main.vi"/>
 		<Item Name="Read Slidebook Parameters File.vi" Type="VI" URL="../Read Slidebook Parameters File.vi"/>
+		<Item Name="HMI Main.vi" Type="VI" URL="../HMI Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
