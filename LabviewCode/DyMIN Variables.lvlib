@@ -49,14 +49,22 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"9!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Final Step, n" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+	<Item Name="Final Step Array" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">1</Property>
+		<Property Name="Network:ElemSize" Type="Str">1000</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:SingleWriter" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">100</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">2</Property>
+		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!V!"A!'65FO&gt;$%W!!!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!"A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"637ZU-49!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="N. DyMIN Steps" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -110,6 +118,23 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!"Q!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"637ZU-T)!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Time till T_u" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
+		<Property Name="Network:BuffSize" Type="Str">1</Property>
+		<Property Name="Network:ElemSize" Type="Str">1000</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">True</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">1000</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">2</Property>
+		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!"Q!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"637ZU-T)!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Time2UpperThreshold" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:SingleWriter" Type="Str">True</Property>
@@ -117,7 +142,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!"Q!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"637ZU-T)!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!"A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"637ZU-49!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Times (#80MHZ SCTLs)" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
