@@ -51,7 +51,7 @@
 	</Item>
 	<Item Name="Final Step Array" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:BuffSize" Type="Str">100</Property>
+		<Property Name="Network:BuffSize" Type="Str">20</Property>
 		<Property Name="Network:ElemSize" Type="Str">262144</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:SingleWriter" Type="Str">True</Property>
@@ -60,7 +60,7 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
 		<Property Name="Real-Time Features:ArrayLength" Type="Str">262144</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">100</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">20</Property>
 		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
 		<Property Name="type" Type="Str">Network</Property>
@@ -120,7 +120,7 @@
 	</Item>
 	<Item Name="Time till T_u" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:BuffSize" Type="Str">100</Property>
+		<Property Name="Network:BuffSize" Type="Str">20</Property>
 		<Property Name="Network:ElemSize" Type="Str">262144</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:SingleWriter" Type="Str">True</Property>
@@ -129,7 +129,7 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">True</Property>
 		<Property Name="Real-Time Features:ArrayLength" Type="Str">262144</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">100</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">20</Property>
 		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
 		<Property Name="type" Type="Str">Network</Property>
