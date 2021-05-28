@@ -21,7 +21,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!V!"A!'65FO&gt;$%W!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Dwell Time (#80MHz SCTLs)" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -90,7 +90,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!V!"A!'65FO&gt;$%W!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Save Illumination Mask?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -151,7 +151,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!V!"A!'65FO&gt;$%W!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Tot Rows" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -160,7 +160,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"9!A!!!!!!"!!V!"A!'65FO&gt;$%W!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Upper Threshold" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
