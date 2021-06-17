@@ -53,7 +53,7 @@
 		<Item Name="Delete All SPC Parameters Files.vi" Type="VI" URL="../Delete All SPC Parameters Files.vi"/>
 		<Item Name="SPCParameters Control.ctl" Type="VI" URL="../SPCParameters Control.ctl"/>
 		<Item Name="Determine File Write Stage.vi" Type="VI" URL="../../../../../Desktop/DyMIN Files Other/Determine File Write Stage.vi"/>
-		<Item Name="FileWritingState.ctl" Type="VI" URL="../../../../../Desktop/DyMIN Files Other/FileWritingState.ctl"/>
+		<Item Name="FileWritingState.ctl" Type="VI" URL="../FileWritingState.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
