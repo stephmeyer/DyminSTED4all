@@ -14,9 +14,6 @@
 	<Property Name="varPersistentID:{898B5194-2EAA-422C-B84B-93BA8104DB61}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Upper Threshold</Property>
 	<Property Name="varPersistentID:{8CE922C2-3889-4D77-A493-1392785B728A}" Type="Ref">/My Computer/DyMIN Variables.lvlib/File Number</Property>
 	<Property Name="varPersistentID:{9635901C-8ED7-4AA5-A4B1-4A463DE51611}" Type="Ref">/NI-myRIO-1900-031e8e64/DyMIN Variables on RT.lvlib/TimetillT_u</Property>
-	<Property Name="varPersistentID:{9896F4D6-8303-4C52-BD1B-4E0125A0A54E}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Tot Rows</Property>
-	<Property Name="varPersistentID:{9E03FE82-000A-4435-AC74-B85D5CCC7478}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Tot Columns</Property>
-	<Property Name="varPersistentID:{D540A1DD-6706-4FB3-A7F6-A823280D5FBC}" Type="Ref">/My Computer/DyMIN Variables.lvlib/N. DyMIN Steps</Property>
 	<Property Name="varPersistentID:{E3EE7D1A-089F-4896-AF31-A941103B8FB9}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Over- or Underflow?</Property>
 	<Property Name="varPersistentID:{E6996AD8-067B-4756-AC00-F27DB3526A90}" Type="Ref">/NI-myRIO-1900-031e8e64/DyMIN Variables on RT.lvlib/FinalStep</Property>
 	<Property Name="varPersistentID:{E9840531-EAE1-4CA9-8223-DF3340109806}" Type="Ref">/My Computer/DyMIN Variables.lvlib/Dymin On?</Property>
@@ -3046,8 +3043,9 @@ AddOutputFilter chunkFilter
 		<Item Name="TestCreateIlluminationMask.vi" Type="VI" URL="../../../../../Desktop/DyMIN Files Other/TestCreateIlluminationMask.vi"/>
 		<Item Name="DyMIN Variables on RT.lvlib" Type="Library" URL="../DyMIN Variables on RT.lvlib"/>
 		<Item Name="FPGA_RT_Main_StateEnum.ctl" Type="VI" URL="../FPGA_RT_Main_StateEnum.ctl"/>
-		<Item Name="DyMIN_FPGA_Main_reference.ctl" Type="VI" URL="../DyMIN_FPGA_Main_reference.ctl"/>
+		<Item Name="FPGA Main reference.ctl" Type="VI" URL="../FPGA Main reference.ctl"/>
 		<Item Name="DyMIN_UpdateFPGAFrontPanel.vi" Type="VI" URL="../DyMIN_UpdateFPGAFrontPanel.vi"/>
+		<Item Name="DyMIN_FPGA_Main reference.ctl" Type="VI" URL="../DyMIN_FPGA_Main reference.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Utilities/Utilities.lvlib"/>
@@ -3083,6 +3081,35 @@ AddOutputFilter chunkFilter
 				<Item Name="CANCloseInterface.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANCloseInterface.vi"/>
 				<Item Name="CANStatusToError.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANStatusToError.vi"/>
 				<Item Name="CANStop.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANStop.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -3090,8 +3117,6 @@ AddOutputFilter chunkFilter
 			<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DyMIN_UpdateFPGAFrontPanel.vi" Type="VI" URL="../../../../../Desktop/DyMIN Files Other/DyMIN_UpdateFPGAFrontPanel.vi"/>
-			<Item Name="DyMIN_FPGA_Main_reference.ctl" Type="VI" URL="../../../Documents/GitHub/DyminSTED4all/LabviewCode/DyMIN_FPGA_Main_reference.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
