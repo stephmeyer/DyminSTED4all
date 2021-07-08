@@ -5,32 +5,32 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="FinalStep" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:BuffSize" Type="Str">20</Property>
-		<Property Name="Network:ElemSize" Type="Str">262144</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1048576</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:ArrayLength" Type="Str">262144</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">50</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">1048576</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">20</Property>
 		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!"A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"637ZU-49!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"9!A!!!!!!#!!V!"1!(4H6N:8*J9Q!=1%!!!@````]!!!Z"=H*B?3"P:C"637ZU/!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="TimetillT_u" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Real-Time Features</Property>
-		<Property Name="Network:BuffSize" Type="Str">20</Property>
-		<Property Name="Network:ElemSize" Type="Str">262144</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1048576</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">True</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:ArrayLength" Type="Str">262144</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">1048576</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">50</Property>
 		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">True</Property>
