@@ -74,7 +74,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">FPGA_RT_Main_StateEnum.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../FPGA_RT_Main_StateEnum.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"C8A!!!"9!A!!!!!!"!%Q!]1!!!!!!!!!"'E:12U&amp;@5F2@47&amp;J&lt;F^4&gt;'&amp;U:56O&gt;7UO9X2M!#F!&amp;A!%"%F%4%5&amp;5V2"5F1$5F6/"&amp;.54V!!#&amp;*5)&amp;.U982F!!!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"S&lt;A!!!"9!A!!!!!!"!&amp;Q!]1!!!!!!!!!"'E:12U&amp;@5F2@47&amp;J&lt;F^4&gt;'&amp;U:56O&gt;7UO9X2M!$F!&amp;A!%"%F%4%5+5V2"5F1A2F"(11B365YA2F"(11F46%^1)%:12U%!!!B36#"4&gt;'&amp;U:1!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Save Illumination Mask?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
